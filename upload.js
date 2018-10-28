@@ -19,7 +19,8 @@ exports.post = function (req, res) {
              dorsal: parseInt(data[0]),
              apellidos: data[1],
              nombre: data[2],
-             categoria: data[3]
+             categoria: data[3],
+             sexo: data[4]
          })
          runners.push(runner);
          if (runners.length === nentries){
