@@ -1,0 +1,22 @@
+{
+  "name": "csvtomongodb",
+  "version": "1.0.0",
+  "description": "program to import csv data to a mongoDB collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "mongoDB"
+  ],
+  "author": "Sebastian Pedraza Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "fast-csv": "^2.4.1",
+    "json2csv": "^4.2.1",
+    "mongoose": "^5.3.7"
+  }
+}
